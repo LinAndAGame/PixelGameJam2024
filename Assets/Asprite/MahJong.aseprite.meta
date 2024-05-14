@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 43
       height: 64
-    spriteID: 6891e3c8dac328e44892392926adcab9
+    spriteID: c17617b79da903942b744bb0e9926c62
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 76
       width: 43
       height: 64
-    spriteID: e63a72198b4d65c459a9502527e215e2
+    spriteID: 064f8d5735795274b92fde377c1aaf07
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 148
       width: 43
       height: 64
-    spriteID: 6dd573f5696cb234f917008a2dfc1448
+    spriteID: 774a7452aa1688f469dbace1108fa110
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 43
       height: 64
-    spriteID: 986832b0ca4c1f047a1d406399e78e89
+    spriteID: f53af850b317e9145be4bc8fc7d72322
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 76
       width: 43
       height: 64
-    spriteID: 40f799902478635428434ece4d6d2460
+    spriteID: d041e9f8693cd4d44b739ca41017da9c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 148
       width: 43
       height: 64
-    spriteID: 70d5d557f2fe49e43a1beed39b67043d
+    spriteID: 58996d1245aadb740ab6c93a301f7ebf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 4
       width: 43
       height: 64
-    spriteID: 41039666776263149a508fab2a943e13
+    spriteID: 551e1f879d393a642be4260ee9acbc3b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -275,7 +275,7 @@ ScriptedImporter:
         y: 0
         width: 43
         height: 64
-      spriteId: 6891e3c8dac328e44892392926adcab9
+      spriteId: c17617b79da903942b744bb0e9926c62
     - name: MahJong_Frame_1
       frameIndex: 1
       cellRect:
@@ -283,7 +283,7 @@ ScriptedImporter:
         y: 0
         width: 43
         height: 64
-      spriteId: e63a72198b4d65c459a9502527e215e2
+      spriteId: 064f8d5735795274b92fde377c1aaf07
     - name: MahJong_Frame_2
       frameIndex: 2
       cellRect:
@@ -291,7 +291,7 @@ ScriptedImporter:
         y: 0
         width: 43
         height: 64
-      spriteId: 6dd573f5696cb234f917008a2dfc1448
+      spriteId: 774a7452aa1688f469dbace1108fa110
     - name: MahJong_Frame_3
       frameIndex: 3
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         y: 0
         width: 43
         height: 64
-      spriteId: 986832b0ca4c1f047a1d406399e78e89
+      spriteId: f53af850b317e9145be4bc8fc7d72322
     - name: MahJong_Frame_4
       frameIndex: 4
       cellRect:
@@ -307,7 +307,7 @@ ScriptedImporter:
         y: 0
         width: 43
         height: 64
-      spriteId: 40f799902478635428434ece4d6d2460
+      spriteId: d041e9f8693cd4d44b739ca41017da9c
     - name: MahJong_Frame_5
       frameIndex: 5
       cellRect:
@@ -315,7 +315,7 @@ ScriptedImporter:
         y: 0
         width: 43
         height: 64
-      spriteId: 70d5d557f2fe49e43a1beed39b67043d
+      spriteId: 58996d1245aadb740ab6c93a301f7ebf
     - name: MahJong_Frame_6
       frameIndex: 6
       cellRect:
@@ -323,7 +323,7 @@ ScriptedImporter:
         y: 0
         width: 43
         height: 64
-      spriteId: 41039666776263149a508fab2a943e13
+      spriteId: 551e1f879d393a642be4260ee9acbc3b
     linkedCells: []
     parentIndex: -1
   platformSettings: []
