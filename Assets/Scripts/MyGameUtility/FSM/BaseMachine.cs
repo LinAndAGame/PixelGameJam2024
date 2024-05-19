@@ -1,5 +1,5 @@
 ﻿namespace MyGameUtility.FSM {
-    public class BaseMachine {
+    public abstract class BaseMachine {
         public CustomAction OnStateChanged = new CustomAction(); 
         
         public BaseState CurState { get; private set; }

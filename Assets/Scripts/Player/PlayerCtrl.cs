@@ -1,34 +1,28 @@
 ﻿using System;
+using DefaultNamespace;
 using GameData;
 using MyGameUtility;
 using UnityEngine;
 
 namespace Player {
     public class PlayerCtrl : MonoSingletonSimple<PlayerCtrl> {
-        public Transform Trans_Model;
-        public float     MaxFireDuration = 1;
-        public float     FireForce       = 20;
-        public Transform Trans_OtherModel;
+        public Transform   Trans_Model;
+        public Rigidbody2D Rigidbody2DRef;
+        public float       DashForce = 10;
+        public float       DashCD;
 
-        private float _Timer;
+        private float _NextDashTime;
+        private bool  CanDash => Time.time >= _NextDashTime;
         
         private void Update() {
-            if (Input.GetKeyDown(Save_GlobalData.I.KeyCodeConfig.Interrupt)) {
-                _Timer = Time.time;
-            }else if (Input.GetKeyUp(Save_GlobalData.I.KeyCodeConfig.Interrupt)) {
-                var duration = Time.time - _Timer;
-                var force    = FireForce * Mathf.Min(MaxFireDuration, duration) / MaxFireDuration;
-                Trans_OtherModel.SetParent(null);
-                // Trans_OtherModel.
+            if (CanDash && Input.GetKeyDown(Save_GlobalData.I.KeyCodeConfig.Dash)) {
+                this.Rigidbody2DRef.AddForce(this.transform.up * DashForce, ForceMode2D.Impulse);
+                _NextDashTime = Time.time + DashCD;
             }
         }
 
-        private void OnCollisionEnter2D(Collision2D other) {
-            
-        }
-
-        public void EnterRoom() {
-            
+        public void Death() {
+            GameManager.I.Defeat();
         }
     }
 }
